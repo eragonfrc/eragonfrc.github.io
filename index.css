@@ -29,7 +29,6 @@ body {
     width: 100%;
     background-color: black;
     color: orange;
-    max-height: 3vh;
 }
 
 #top-header-content:hover {
@@ -50,8 +49,6 @@ body {
 #mid-header {
     left: 0;
     width: 100%;
-    height: 15vh;
-    max-height: 15vh;
     background-color: orange;
     text-align: center;
     z-index: 5;
@@ -164,7 +161,7 @@ body {
 }
 
 .medya-buttons {
-    font-size: 100px;
+    font-size: xx-large;
     text-decoration: none;
     color: white;
     background-image: radial-gradient(blue, white);
@@ -194,6 +191,10 @@ body {
 
     #phone-open-menu-acma-buttonu {
         display: block;
+    }
+
+    .top-header-content-a {
+        padding: 5px;
     }
     
 }
