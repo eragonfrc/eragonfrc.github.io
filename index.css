@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 
 body {
@@ -29,6 +29,7 @@ body {
     width: 100%;
     background-color: black;
     color: orange;
+    max-height: 3vh;
 }
 
 #top-header-content:hover {
@@ -49,7 +50,8 @@ body {
 #mid-header {
     left: 0;
     width: 100%;
-    height: 12em;
+    height: 15vh;
+    max-height: 15vh;
     background-color: orange;
     text-align: center;
     z-index: 5;
@@ -135,6 +137,10 @@ body {
     border: none;
 }
 
+.phone-open-menu-a-buttons:hover {
+    color: grey;
+}
+
 #phone-open-menu-acma-buttonu {
     border: 2px solid black;
     background: none;
@@ -147,9 +153,27 @@ body {
     position: relative;
 }
 
+#main-page {
+    position: absolute;
+    top: 18vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    line-height: 2em;
+    font-weight: lighter;
+}
+
+.medya-buttons {
+    font-size: 100px;
+    text-decoration: none;
+    color: white;
+    background-image: radial-gradient(blue, white);
+    padding: 50px;
+    border-radius: 100px;
+}
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     .will-be-removed-responsive-media {
         display: none;
