@@ -221,3 +221,10 @@ body {
     }
     
 }
+
+
+@media only screen and (max-height: 700px) {
+    #eragon-text-first {
+        top: 30%;
+    }
+}
