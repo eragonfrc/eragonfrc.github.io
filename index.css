@@ -84,7 +84,7 @@ body {
 
 #eragon-text-first {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -170,7 +170,6 @@ body {
 }
 
 #main-page {
-    top: 25%;
     text-align: center;
 }
 
@@ -211,6 +210,14 @@ body {
 
     .top-header-content-a {
         padding: 5px;
+    }
+
+    #eragon-text-first {
+        top: 25%;
+    }
+
+    #main-page {
+        top: 25%;
     }
     
 }
