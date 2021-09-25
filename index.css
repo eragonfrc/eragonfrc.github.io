@@ -84,9 +84,9 @@ body {
 
 #eragon-text-first {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 
 #first-main-button-hakkinda {
@@ -167,6 +167,22 @@ body {
     background-image: radial-gradient(blue, white);
     padding: 50px;
     border-radius: 100px;
+}
+
+#main-page {
+    top: 25%;
+    text-align: center;
+}
+
+#eragon-text-first-img {
+    height: 400px;
+    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+
 }
 
 
