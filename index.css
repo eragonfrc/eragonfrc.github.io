@@ -8,16 +8,17 @@ body {
     font-size: 12px;
     font-weight: bold;
     text-align: justify;
-	background-image: url("resimler/gecici_arla_plan_fotografi.jpg");
+	background-image: url("resimler/ekip_fotografi.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
+    overflow: hidden;
 }
 
 
 #top-top-header {
-    position: fixed;
+    position: relative;
     left: 0;
     width: 100%;
     z-index: 5;
@@ -152,12 +153,14 @@ body {
 
 #main-page {
     position: absolute;
-    top: 18vh;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%;
+    width: 100%;
     line-height: 2em;
     font-weight: lighter;
+    overflow-y: auto;
+    max-height: 100%;
+    text-align: center;
 }
 
 .medya-buttons {
@@ -167,10 +170,6 @@ body {
     background-image: radial-gradient(blue, white);
     padding: 50px;
     border-radius: 100px;
-}
-
-#main-page {
-    text-align: center;
 }
 
 #eragon-text-first-img {
