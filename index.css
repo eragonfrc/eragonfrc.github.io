@@ -178,9 +178,11 @@ body {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    
+}
 
-
+.table_hakkinda_td {
+    background-color: wheat;
+    border: none;
 }
 
 
@@ -212,10 +214,6 @@ body {
     }
 
     #eragon-text-first {
-        top: 25%;
-    }
-
-    #main-page {
         top: 25%;
     }
     
