@@ -5,3 +5,4 @@ function closePhoneOpenMenu() {
 function openPhoneOpenMenu() {
     document.getElementById("phone-open-menu").style.display = "block";
 }
+
