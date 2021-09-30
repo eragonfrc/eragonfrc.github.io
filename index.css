@@ -169,6 +169,7 @@ body {
     color: white;
     background-image: radial-gradient(blue, white);
     padding: 50px;
+    margin: 50px;
     border-radius: 100px;
 }
 
